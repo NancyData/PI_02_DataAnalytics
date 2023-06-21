@@ -24,20 +24,19 @@ Para ello requieren:
 
 ### Fuente de datos
 
-La información que se utilizó para este análisis fue obtenida de los datasets proporcionados, los cuales pueden descargar AQUÍ
-***AGREGAR LINK
+La información que se utilizó para este análisis fue obtenida de los datasets proporcionados, los cuales pueden descargar [AQUÍ](https://drive.google.com/drive/folders/1IjRATq1wicMevJ7epbJzlkZ3spMPRil2 "AQUÍ")
 
 ---
 
 ### Declaración de KPIs
 
-- `KPI 1`:  Tasa de Conversión anual del 15%
+- `KPI 1`: Tasa de Conversión anual del 15%
                
-- `KPI 2`:  Mantener un rating de mínimo 4.7 de manera periódica
+- `KPI 2`: Mantener un rating de mínimo 4.7 de manera periódica
                     
 - `KPI 3`: Elevar la tasa de subscriptores 50% respecto al año anterior
            
-- `KPI 4`: FALTA
+- `KPI 4`: Tasa de Ingresos Anuales con un 15% superior al año anterior
 
 ---
 
@@ -46,8 +45,7 @@ La información que se utilizó para este análisis fue obtenida de los datasets
 
 Se realizó el análisis desde Python, importando previamente los datasets en formato CSV. Se comenzó transformando el tipo de datos, revisando duplicados, datos faltantes y analizando las variables de manera individual y su correlación con las otras. Se llegaron a las primeras conclusiones y se guardó los datasets listos en formato CSV para llevarlos a la siguiente etapa.
 
-***AGREGAR LINK
-*Para acceder al informe detallado por favor [ingresar aquí](https://github.com/bigdatamartin/pi-03-henry-data-analyst/blob/main/Informe-EDA.md).*
+*Para acceder al informe detallado por favor [Ingresa aquí](https://github.com/NancyData/PI_02_DataAnalytics/blob/main/EDA.ipynb "Ingresa aquí").*
 
 ---
 ### Desarrollo de Dashboard con PowerBI
@@ -55,14 +53,13 @@ Se realizó el análisis desde Python, importando previamente los datasets en fo
 
 Se importaron los datasets que surgieron del Análisis previo, cada plataforma fue analizada de manera individual considerando las variables Precio, Idioma, Nivel y Rating.  Además se tomó en cuenta las palabras que más se repetían de las reseñas en la plataforma de Coursera y se elaboró el dashboard de control para el monitoreo de los KPIs a lo largo del histórico de los datasets
 
-***AGREGAR LINK
-*Para acceder al informe detallado por favor [ingresar aquí](https://github.com/bigdatamartin/pi-03-henry-data-analyst/blob/main/Informe-EDA.md).*
+*Para acceder al informe detallado por favor [ingresa aquí](https://github.com/NancyData/PI_02_DataAnalytics/blob/main/presentacion_analisis_datos.pbix "ingresa aquí").*
 
 ---
 
 ### Conclusiones
 
-* Si bien los MOOCs, llegaron a revolucionar la educación a nivel mundial, aún no tenían el auge esperado hasta que nos enfrentamos a una emergencia de salud fuerte durante el periodo 2019-2022, que ocasionó un aumento exponencial en la inscripción a dicho tipos de cursos. Dicho cambió se puede ver en el dashboard.
+* Si bien los MOOCs, llegaron a revolucionar la educación a nivel mundial, aún no tenían el auge esperado hasta que nos enfrentamos a una emergencia de salud fuerte durante el periodo 2019-2022, que ocasionó un aumento exponencial en la inscripción a dicho tipos de cursos. Dicho cambió se puede ver en los gráficos del dashboard.
 - Se considera un tiempo crucial para comenzar una startup con cursos online.
 * Si se mantienen el monitoreo de los KPIs, y se tiene cuidado de los elementos mencionados por reseñas negativas en Coursera,  se podrá tener una plataforma con amplia audiencia y alto índice de conversión.
 
